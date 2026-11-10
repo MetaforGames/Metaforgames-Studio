@@ -1,0 +1,8 @@
+{
+  "name": "360 Universe Portfolio",
+  "description": "A 3D universe portfolio using Three.js and GSAP for smooth animations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-handwriting: "Caveat", cursive, sans-serif;
+  --font-typewriter: "Courier Prime", monospace;
+}
+
+@layer base {
+  body {
+    @apply antialiased text-gray-50 bg-[#050510];
+  }
+}
+
+.notebook-paper-grid {
+  background-color: #faf6ee;
+  background-image: 
+    linear-gradient(to right, rgba(90, 120, 155, 0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(90, 120, 155, 0.08) 1px, transparent 1px);
+  background-size: 18px 18px;
+}
+
+.hide-cursor-global, .hide-cursor-global * {
+  cursor: none !important;
+}
+
